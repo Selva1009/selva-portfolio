@@ -1,0 +1,100 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #010101, #1f1f1f, #2b0505);
+  background-attachment: fixed;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.social a {
+  margin: 0 10px;
+  font-size: 32px;
+  color: yellow;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border-radius: 8px;
+  background: yellow;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.glass {
+  width: 70%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.skill {
+  margin-bottom: 12px;
+}
+
+.skill .bar {
+  height: 10px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.skill .bar div {
+  height: 10px;
+  background: yellow;
+  width: 50%;
+  border-radius: 10px;
+  animation: grow 2s ease-out;
+}
+
+@keyframes grow {
+  from { width: 0; }
+}
+
+.project-card {
+  background: rgba(0,0,0,0.4);
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid yellow;
+  margin: 15px 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 8px;
+  color: cyan;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+  opacity: 0.6;
+}
